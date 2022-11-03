@@ -1,3 +1,18 @@
+DROP VIEW app_user_v CASCADE;
+
+DROP VIEW post_v CASCADE;
+
+DROP VIEW comment_v CASCADE;
+
+DROP TABLE app_user CASCADE;
+
+DROP TABLE role CASCADE;
+
+DROP TABLE request CASCADE;
+
+DROP TABLE comment CASCADE;
+
+
 CREATE TABLE app_user (
     id                  SERIAL PRIMARY KEY,
     email               varchar(255),
